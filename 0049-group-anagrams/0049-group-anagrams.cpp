@@ -13,7 +13,6 @@ public:
             
             
         }
-       
       
         return result;
     }
@@ -23,13 +22,10 @@ private:
         for (int j = 0; j < str.size(); j++) {
             
             count[str[j] - 'a']++;
-        
         }
-    
         string key = "";
         for (int i = 0; i < count.size(); i++) {
             key.append(to_string(count[i]) + '#');
-         
         }
         return key;
     }
