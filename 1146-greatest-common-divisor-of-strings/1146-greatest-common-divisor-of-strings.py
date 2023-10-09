@@ -1,8 +1,8 @@
 class Solution:
     def computeGCD(self, x, y):
-        while(y):
-            x = y
-            y = x % y
+        
+        x = y
+        y = x % y
         return abs(x)
 
     def gcdOfStrings(self, str1: str, str2: str) -> str:
