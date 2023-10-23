@@ -5,8 +5,8 @@ public:
         int size = nums.size();
         for(int i = 0; i < size; i++){
             if(nums[i] != val){
-                nums[index] = nums[i];
-                index++;
+                nums[index++] = nums[i];
+               
                 
             }
         
