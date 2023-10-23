@@ -5,7 +5,9 @@ class Solution:
         """
         
         for x in range(m , m+n):
-            nums1.remove(0)
+            print(nums1)
+            del nums1[m]
+
         nums1.extend(nums2)
         nums1.sort()
 
