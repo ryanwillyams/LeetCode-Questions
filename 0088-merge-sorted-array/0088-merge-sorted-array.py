@@ -5,7 +5,6 @@ class Solution:
         """
         
         for x in range(m , m+n):
-            print(nums1)
             del nums1[m]
 
         nums1.extend(nums2)
